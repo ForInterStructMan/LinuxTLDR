@@ -33,3 +33,8 @@ struct utsname {
            #endif
            };
 ```
+
+###Where to find this
+The following man page contains roughly same information
+```man 3 uname```
+
