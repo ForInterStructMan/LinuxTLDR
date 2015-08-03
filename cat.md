@@ -4,7 +4,7 @@ cat [options] FILE
 Cat copies a file contents and pipes to standard output.
 It also can copy standard output to a file 
 
-#Flags:
+Flags:
 -A, --show-all 
 -b, -number-nonblank (Number of nonempty lines in file)
 -E,--show-ends (Shows a $ after the end of each line) 
@@ -24,11 +24,12 @@ Same as Cat except in Reverse
 -r,--regex (treats Separator string as regex)
 -s SEPARATOR,--separator=SEPARATOR (Uses separator as line separator instead of \n)
 
-#Example reverse file contents character by character
-'''
+#Example 
+//reverse file contents character by character
+
 'tac -r -s 'x\|[^x]'
 
-#Where to find this#
-'''
+#Where to find this
+
 info coreutils cat invocation
 
