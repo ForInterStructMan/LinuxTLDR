@@ -15,7 +15,8 @@ Flags:
 Shortcuts:
 -t (Same as '-vT') -e (Same as '-vE') -A (Same as '-vET')
 
-#Example:Redirects f contents to stdio and then into g
+#Example:
+//Redirects f contents to stdio and then into g
 cat f - g
 
 tac [options] FILE
