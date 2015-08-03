@@ -48,3 +48,6 @@ FORMAT flags: 'ln'(Left Justified,no leading zeroes) 'rn'(Right Justified,no lea
 -v NUMBER,--starting-line-number=NUMBER(sets initial line number to NNUMBER[default 1])
 
 -w,number-width=NUMBER (analogous to -v except for width)
+#Where to find this:
+
+'info coreutils nl invocation'
