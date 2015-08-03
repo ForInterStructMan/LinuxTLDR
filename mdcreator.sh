@@ -2,9 +2,9 @@
 echo MD Creator
 echo Please Enter Name of MD to be created 
 read response
-if  [  -f "${reponse}.md" ]
-echo File Already Exists You are killing me smalls! Would you like to remove?
-then 	
+if  [  -e "${reponse}.md" ]
+then 
+echo File Already Exists You are killing me smalls! Would you like to remove?	
 read trigger
 		if [ "$trigger" = "y" ] 
 	then  echo File is being removed ;
@@ -22,11 +22,14 @@ if [  $trigger = "*" ]
 				then echo invalid 
 					   		exit 
 fi
-fi
-touch ${response}.md
-echo "# $response invocation 
-
+else 
+	touch ${response}.md
+	echo "# $response invocation 	
+	
 #$response usage: 
 
 #Where to find this" >> ${response}.md
 vim $response.md
+
+fi
+

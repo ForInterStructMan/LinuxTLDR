@@ -42,5 +42,5 @@ Same as cat except in Reverse
 
 #Where to find this
 
-info coreutils cat invocation
+info cat invocation
 

@@ -50,4 +50,4 @@ FORMAT flags: 'ln'(Left Justified,no leading zeroes) 'rn'(Right Justified,no lea
 -w,number-width=NUMBER (analogous to -v except for width)
 #Where to find this:
 
-'info coreutils nl invocation'
+'info nl invocation'
