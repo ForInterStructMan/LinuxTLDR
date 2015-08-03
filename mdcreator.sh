@@ -26,7 +26,7 @@ fi
 touch ${response}.md
 echo "# $response invocation 
 
-#$response
+#$response usage: 
 
 #Where to find this" >> ${response}.md
 vim $response.md
